@@ -5,6 +5,7 @@ USE chat;
 DROP TABLE IF EXISTS messages;
 CREATE TABLE messages (
   /* Describe your table here.*/
+  nickname varchar(20),
   username varchar(20),
   -- timedate datetime(),
   ID int NOT NULL AUTO_INCREMENT,
